@@ -50,7 +50,7 @@ prefix target:     <https://mermaid.org/ontomermaid/model/target/>
     owl:versionInfo '0.1.0';
     owl:versionIRI <https://github.com/floresbakker/mermaid/tree/main>;
     vann:preferredNamespacePrefix 'mermaid';
-    vann:preferredNamespaceUri 'https://mermaid.org/ontomermaid/model/def/';
+    vann:preferredNamespaceUri 'https://mermaid.org/ontomermaid/model/def/'^^xsd:anyURI;
     void:subSet graph:model;
     void:uriRegexPattern '^https://mermaid.org/ontomermaid/model/def/';
     void:uriSpace 'https://mermaid.org/ontomermaid/model/def/'^^xsd:anyURI.
